@@ -52,3 +52,19 @@
   font-weight: 700;
   font-size: 4rem;
 }
+.snapchat {
+  background: linear-gradient(
+    to right,
+    #8456ec 49%,
+    #ccb6ff 100%,
+    #e87bf8 100%
+  );
+  /* #ede5ff 100% */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.para {
+  margin: 1rem 0;
+  line-height: 2rem;
+  color: lightslategray;
+}
