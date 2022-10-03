@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -19,13 +20,15 @@ const LandingPage = () => {
       </div>
       <div className='landing-page-header'>
         <div className='heading'>
-          Imagine if <span>Snapchat</span> had events.
+          Imagine if <span className='snapchat'>Snapchat</span> had events.
         </div>
         <div className='para'>
           Easily host and share events with your friends across any social
           media.
         </div>
-        <button>🎉 Create my event</button>
+        <Link to='/create'>
+          <button className='button login-button '>🎉 Create my event</button>
+        </Link>
       </div>
     </div>
   );
