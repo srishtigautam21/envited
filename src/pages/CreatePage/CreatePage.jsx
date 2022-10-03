@@ -4,7 +4,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const CreatePage = ({ input, setInput }) => {
-  const { name, host, startDate, endDate, startTime, endTime, location, img } =
+  const { name, host, startDate, endDate, startTime, endTime, location } =
     input;
   //   const [selectedDate, setSelectedDate] = useState(null);
   return (
