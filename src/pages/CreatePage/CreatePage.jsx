@@ -1,12 +1,12 @@
 import "./CreatePage.css";
-// import { Link } from "react-router-dom";
+
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const CreatePage = ({ input, setInput }) => {
   const { name, host, startDate, endDate, startTime, endTime, location } =
     input;
-  //   const [selectedDate, setSelectedDate] = useState(null);
+
   return (
     <div className='create-event-form height-100'>
       <form className='input-form create-event'>
@@ -108,24 +108,10 @@ const CreatePage = ({ input, setInput }) => {
           Upload Image
         </label>
         <input type='file' id='Upload-Image' />
-        {/* <Link to='/event' className='signup-page-link signup-page-link-margin'> */}
-        <button
-          type='submit'
-          className='button login-button'
-          //   onClick={(e) => {
-          //     e.preventDefault();
 
-          //     if (email != "" || password != "") {
-          //       loginHandler(email, password);
-          //       setInput({ email: "", password: "" });
-          //     } else {
-          //       setError("Fields Cannot be empty");
-          //     }
-          //   }}
-        >
+        <button type='submit' className='button login-button'>
           Next
         </button>
-        {/* </Link> */}
       </form>
     </div>
   );
